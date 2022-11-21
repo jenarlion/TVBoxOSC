@@ -26,10 +26,10 @@ jobs:
       matrix:
         include:
           - userName: jenarlion
-            repoName: TVBoxOS-q
+            repoName: TVBoxOSq
             branchName: main
           - userName: jenarlion
-            repoName: TVBoxOSC-t
+            repoName: TVBoxOSCt
             branchName: main
     steps:
       - name: Checkout
