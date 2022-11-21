@@ -25,10 +25,12 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: jenarlion
+          - userName: q215613905
             repoName: TVBoxOS
             branchName: main
-          
+          - userName: takagen99
+            repoName: Box
+            branchName: main       
     steps:
       - name: Checkout
         uses: actions/checkout@v3
