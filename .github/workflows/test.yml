@@ -28,9 +28,7 @@ jobs:
           - userName: jenarlion
             repoName: TVBoxOS
             branchName: main
-          - userName: jenarlion
-            repoName: BOX
-            branchName: main
+          
     steps:
       - name: Checkout
         uses: actions/checkout@v3
